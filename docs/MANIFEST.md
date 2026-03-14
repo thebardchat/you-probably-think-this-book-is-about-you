@@ -10,3 +10,4 @@
 | 006 | Far Enough In | Draft | escape, stillness, depth, the path, silence, searching | 005 |
 | 007 | The Loop | Draft | routine, time, the cycle, identity, momentum, the body | 002, 003, 004 |
 | 008 | The Slogan | Draft | mortality, denial, the mundane, humor, certainty, time | 007, 001 |
+| 009 | The Wave | Draft | connection, expectation, the unspoken, strangers, separate paths | 007, 002 |
