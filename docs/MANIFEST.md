@@ -15,3 +15,4 @@
 | 011 | The Rebuttal | Draft | fatherhood, chaos, love, the body, aftermath, joy | 010 |
 | 012 | The Billion | Draft | dreams, the subconscious, chaos, pattern, the familiar made strange | 011 |
 | 013 | Still Asleep? | Draft | waking, the seam, reality's bad impression of itself | 012 |
+| 015 | Left Behind | Draft | memory, loss, the irretrievable, the mundane, anxiety, the dream that lingers | 013 |
