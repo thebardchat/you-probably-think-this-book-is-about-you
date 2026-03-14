@@ -11,3 +11,5 @@
 | 007 | The Loop | Draft | routine, time, the cycle, identity, momentum, the body | 002, 003, 004 |
 | 008 | The Slogan | Draft | mortality, denial, the mundane, humor, certainty, time | 007, 001 |
 | 009 | The Wave | Draft | connection, expectation, the unspoken, strangers, separate paths | 007, 002 |
+| 010 | Drop The Hammer | Draft | fatherhood, presence, the small moments, time, surrender, love | 007, 009 |
+| 011 | The Rebuttal | Draft | fatherhood, chaos, love, the body, aftermath, joy | 010 |
