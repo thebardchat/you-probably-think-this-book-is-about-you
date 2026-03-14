@@ -22,3 +22,4 @@
 | 019 | Not A Bill | Draft | cost, answers, the examined life, irony, the unbilled, worth | 018 |
 | 020 | Same Road | Draft | transformation, the unchanged world, perception, after, continuation | 019, 002 |
 | 021 | The Old Man's File | Draft | the invisible, the background character, a life fully lived, proximity, the unseen lead | 004, 018, 020 |
+| 022 | The Garbage Man's File | Draft | the unwitnessed life, duty, contentment, the invisible, the unasked question | 003, 018, 021 |
