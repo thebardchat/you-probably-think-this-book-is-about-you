@@ -19,3 +19,4 @@
 | 016 | The Audit | Draft | reflex, anxiety, acceptance, the body's memory, letting go | 015 |
 | 017 | The Inventory | Draft | memory, the universal, loss, the mundane, accumulation, the irretrievable | 016 |
 | 018 | Dr. Seen | SPINE | psychology, identity, the examined | ALL |
+| 019 | Not A Bill | Draft | cost, answers, the examined life, irony, the unbilled, worth | 018 |
