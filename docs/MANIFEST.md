@@ -17,3 +17,4 @@
 | 013 | Still Asleep? | Draft | waking, the seam, reality's bad impression of itself | 012 |
 | 015 | Left Behind | Draft | memory, loss, the irretrievable, the mundane, anxiety, the dream that lingers | 013 |
 | 016 | The Audit | Draft | reflex, anxiety, acceptance, the body's memory, letting go | 015 |
+| 017 | The Inventory | Draft | memory, the universal, loss, the mundane, accumulation, the irretrievable | 016 |
