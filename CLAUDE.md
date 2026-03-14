@@ -104,3 +104,8 @@ Status values: Draft, SPINE (018 only), FINAL (014 only), Locked, Archived.
 Written by Shane Brazelton.
 Co-built with Claude (Anthropic).
 Built on Raspberry Pi 5 + Pironman 5-MAX.
+
+## Claude Code Rules
+- Commit and push directly to `main`. Do NOT create branches.
+- Run build/test commands before committing.
+- Update CLAUDE.md session log before final commit.
