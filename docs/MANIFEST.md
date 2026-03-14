@@ -18,4 +18,4 @@
 | 015 | Left Behind | Draft | memory, loss, the irretrievable, the mundane, anxiety, the dream that lingers | 013 |
 | 016 | The Audit | Draft | reflex, anxiety, acceptance, the body's memory, letting go | 015 |
 | 017 | The Inventory | Draft | memory, the universal, loss, the mundane, accumulation, the irretrievable | 016 |
-| 018 | Dr. Seen | Draft | psychology, the examined mind, contradiction, the builder, the wounded, identity | 017, 001 |
+| 018 | Dr. Seen | SPINE | psychology, identity, the examined | ALL |
