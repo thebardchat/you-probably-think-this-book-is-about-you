@@ -13,3 +13,5 @@
 | 009 | The Wave | Draft | connection, expectation, the unspoken, strangers, separate paths | 007, 002 |
 | 010 | Drop The Hammer | Draft | fatherhood, presence, the small moments, time, surrender, love | 007, 009 |
 | 011 | The Rebuttal | Draft | fatherhood, chaos, love, the body, aftermath, joy | 010 |
+| 012 | The Billion | Draft | dreams, the subconscious, chaos, pattern, the familiar made strange | 011 |
+| 013 | Still Asleep? | Draft | waking, the seam, reality's bad impression of itself | 012 |
