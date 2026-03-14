@@ -23,3 +23,4 @@
 | 020 | Same Road | Draft | transformation, the unchanged world, perception, after, continuation | 019, 002 |
 | 021 | The Old Man's File | Draft | the invisible, the background character, a life fully lived, proximity, the unseen lead | 004, 018, 020 |
 | 022 | The Garbage Man's File | Draft | the unwitnessed life, duty, contentment, the invisible, the unasked question | 003, 018, 021 |
+| 023 | The Teenagers' File | Draft | youth, invincibility, the unformed, becoming, the vape, borrowed time | 004, 018, 022 |
