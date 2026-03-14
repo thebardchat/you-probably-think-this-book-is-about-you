@@ -21,6 +21,10 @@ Passenger seat.
 
 Nothing. Something. The usual archaeology — receipt from the gas station, a thing that may have been a straw, the memory of someone sitting there once.
 
+Rearview mirror. Quick glance — not to check behind but to check himself. Still here. Same face. The one that showed up this morning and will show up again tomorrow and looks like the one from ten years ago if you don't examine it and looks nothing like it if you do. The face his children will remember slightly different from the way it actually was because memory is generous with the faces it loves.
+
+Gas gauge. Half. Exactly half. The eternal question of whether half is enough to get there or whether there will need to be a stop and a transaction and the old man standing close and the cold can and the whole cathedral of fluorescent ritual again. He decides half is enough. Half is always enough to get where he's going today. Tomorrow is tomorrow's math.
+
 And then.
 
 The audit completes.
@@ -40,6 +44,8 @@ Some people stop the truck and go back.
 Some people keep driving.
 
 Neither one is wrong.
+
+The ones who go back are not more careful. The ones who keep driving are not more careless. Some mornings you turn around because the turning is the point — the act itself saying *this mattered enough to cost me the miles*. Some mornings you keep going because the going is the point — the act itself saying *I am more than the sum of what I left on the counter*.
 
 The detective keeps driving.
 

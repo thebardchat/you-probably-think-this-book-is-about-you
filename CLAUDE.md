@@ -73,9 +73,10 @@ FINALE — You Finally Found (014)
 
 ```
 scenes/drafts/     — all 22 scene files (scene-001.md through scene-025.md)
+scenes/interludes/  — 4 unnumbered interludes between acts
 scenes/archived/   — for retired drafts (empty)
-compiled/          — for assembled manuscript (empty)
-docs/MANIFEST.md   — scene index with status, themes, connections
+compiled/manuscript.md — full assembled manuscript in reading order (12,788 words)
+docs/MANIFEST.md   — scene index with status, themes, connections, interlude table
 docs/SCENE_TEMPLATE.md — blank template
 ```
 
@@ -95,9 +96,9 @@ Status values: Draft, SPINE (018 only), FINAL (014 only), Locked, Archived.
 ## What's Next
 
 - Narration / audiobook exploration
-- Compiled manuscript assembly (reading-order, single file)
 - Cover art / design
 - Editing pass (if Shane wants one — the first draft voice is strong)
+- Publishing (Amazon KDP / ACX)
 
 ## Credit
 

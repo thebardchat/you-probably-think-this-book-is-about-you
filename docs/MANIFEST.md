@@ -1,5 +1,14 @@
 # Scene Manifest
 
+## Interludes (unnumbered, between acts)
+| Placement | File |
+|-----------|------|
+| After 009, before 010 | scenes/interludes/interlude-act1-act2.md |
+| After 013, before 015 | scenes/interludes/interlude-act2-act3.md |
+| After 017, before 018 | scenes/interludes/interlude-act3-spine.md |
+| After 020, before 021 | scenes/interludes/interlude-act4-act5.md |
+
+## Scenes
 | # | Title | Status | Themes | Connects To |
 |---|-------|--------|--------|-------------|
 | 001 | The Lead Character | Draft | ego, perception, identity, self-deception, universality | TBD |

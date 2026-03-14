@@ -29,6 +29,12 @@ But what about the things with no shape.
 
 The things you can't pat your pockets for. The thing you said to someone in 2009 that landed wrong and never got corrected. The version of yourself you were in a particular year that you cannot locate now no matter which drawer you check. The apology that almost happened. The phone call that kept getting scheduled for later until later became a different kind of permanent.
 
+The room that used to be yours in the house that isn't yours anymore. Someone else lives in it now and they don't know about the mark on the door frame or the window that sticks or the specific way the light comes through at seven AM making the whole wall look like something worth painting. They live inside your coordinates and don't know they're keeping them for you.
+
+The song that used to mean one thing and now means the other thing. The original meaning still underneath like a floor beneath a floor — available if you pry, but you don't pry because the new meaning is where you live now and the old one belongs to the version of yourself you were in a year that didn't end the way the year before it predicted.
+
+The laugh you used to have before you started monitoring your laugh.
+
 Can you go back for those.
 
 Is it there if you go back.
