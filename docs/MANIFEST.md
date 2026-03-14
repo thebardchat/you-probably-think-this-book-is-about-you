@@ -20,3 +20,4 @@
 | 017 | The Inventory | Draft | memory, the universal, loss, the mundane, accumulation, the irretrievable | 016 |
 | 018 | Dr. Seen | SPINE | psychology, identity, the examined | ALL |
 | 019 | Not A Bill | Draft | cost, answers, the examined life, irony, the unbilled, worth | 018 |
+| 020 | Same Road | Draft | transformation, the unchanged world, perception, after, continuation | 019, 002 |
