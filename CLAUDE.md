@@ -95,10 +95,21 @@ Status values: Draft, SPINE (018 only), FINAL (014 only), Locked, Archived.
 
 ## What's Next
 
-- Narration / audiobook exploration
+- Audiobook v2 — professional-grade voice (ElevenLabs, ACX narrator, or self-recorded)
 - Cover art / design
 - Editing pass (if Shane wants one — the first draft voice is strong)
 - Publishing (Amazon KDP / ACX)
+
+## Audiobook v1.0 (local TTS proof of concept)
+
+- **Voice:** Piper TTS `en_US-joe-medium` model
+- **Pacing:** length_scale 1.2, sentence_silence 0.8
+- **Duration:** 78 minutes
+- **Files:** `compiled/BOOK-DETECTIVE-NOIR.wav` and `.mp3` (gitignored, local only)
+- **Playback:** Must use `pw-play` (PipeWire), NOT `aplay` — HDMI audio requires PipeWire
+- **Known issues:** noise_scale/noise_w params cause clipping/static — keep defaults
+- **Name pronunciation:** "Brazelton" spelled as "Brazzleton" in TTS input for correct pronunciation
+- **Verdict:** Clean audio, decent pacing, but not audiobook-sale quality — needs real voice acting
 
 ## Credit
 
