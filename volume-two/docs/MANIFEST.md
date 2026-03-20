@@ -24,6 +24,7 @@
 | 011 | The Shift | Demo | inhabitation (the waiter), the hangover, the night before, industry life, the bum in the alcove, muoviti, erasing the man he sleeps above | Track 010, 009, 008, 002 |
 | 012 | The Pour | Demo | inhabitation (the bartender / Sandro Luciano), the showman, bottle flip, mother's limoncello, Tokyo silence, sees everyone sees nothing, headlights through the bottle | Track 011, 009, 008, 002 |
 | 013 | The Third Thing | Demo | the dream, the banana phone, the bureaucratic elephant, the stapler within the stapler, the train he let go, the fish clocked out | Track 012, 004, 002, Vol 1: 012 |
+| 014 | The Twist | Demo | THE REVEAL: Pepe hired the detective, the phone call, the steering wheel, the crash, the bartender's last act, the fedora, case solved, the record stops | ALL TRACKS, Vol 1: 014 |
 
 ## Bonus Track
 | # | Title | Status | Themes | Connects To |
