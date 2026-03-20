@@ -43,6 +43,10 @@ Everyone from Volume One can return. They don't have to. New faces show up the w
 - The skip / the scratch
 - Side A / Side B
 - The silence between tracks
+- The inhabitation (landing in someone else's body — the detective IS them for one second)
+- Foreign language fragments as proof of inhabitation (Hindi/Urdu first, more to come)
+- Half finished (nobody completes — the assignment was the drive)
+- The knuckles (each body aches differently)
 - (more will emerge from Shane's voice dumps — don't force them)
 
 ## Structure
@@ -51,15 +55,19 @@ Everyone from Volume One can return. They don't have to. New faces show up the w
 TRACK 000 — The Groove
   The needle before the sound. Almost nothing. The album hasn't started yet.
 
-SIDE A — [untitled until tracks exist]
-  Tracks 001–???
-  The detective after the case. The world keeps playing.
+SIDE A — Observation
+  Tracks 000–002 + Sidetrack interlude
+  The detective after the case. The wide frame. The crane shot. Watching the world play.
 
-  [THE FLIP — unmarked, somewhere in here]
+  [THE FLIP — Track 003, The Landing. The needle skips. The detective comes back down
+   into the wrong body. The reader crosses into Side B without being told.]
 
-SIDE B — [untitled until tracks exist]
-  Tracks ???–???
-  The record has been playing this whole time. You just noticed.
+SIDE B — Inhabitation
+  Tracks 003–???
+  The detective lands in other bodies. One second at a time. He thinks their thoughts,
+  speaks their languages, aches in their knuckles. He is everyone and no one.
+  Each character from the diner (and beyond) gets their moment of inhabitation.
+  Foreign language fragments are the tell — proof he's really inside someone else.
 
 SILENCE
 
