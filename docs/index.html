@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="You Probably Think This Book Is About You">
+<meta property="og:description" content="22 noir vignettes about ego, identity, and the universal human condition. By Shane Brazelton.">
+<meta property="og:image" content="https://thebardchat.github.io/you-probably-think-this-book-is-about-you/docs/social-card.svg">
+<title>You Probably Think This Book Is About You</title>
+<style>
+  :root {
+    --bg: #0a0806;
+    --bg2: #141008;
+    --amber: #f59e0b;
+    --amber2: #d97706;
+    --sepia: #a16207;
+    --text: #e7d9c4;
+    --muted: #a0906e;
+    --card: #120e08;
+    --border: #2d220e;
+    --cream: #fef3c7;
+    --red: #b91c1c;
+  }
+  @import url('data:text/css,');
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.7;
+    min-height: 100vh;
+  }
+  canvas#film {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    pointer-events: none; z-index: 0; opacity: 0.06;
+  }
+  .content { position: relative; z-index: 1; }
+
+  .ref-banner {
+    background: linear-gradient(90deg, #0a0806, #1a1208, #0a0806);
+    border-bottom: 1px solid var(--border);
+    padding: 0.7rem 1.5rem;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  .ref-banner a { color: var(--amber); text-decoration: none; font-weight: 600; }
+  .ref-banner a:hover { text-decoration: underline; }
+
+  header {
+    padding: 5rem 2rem 4rem;
+    text-align: center;
+    background: radial-gradient(ellipse at 50% 0%, rgba(245,158,11,0.08) 0%, transparent 70%);
+    position: relative;
+    overflow: hidden;
+  }
+  header::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(0,0,0,0.03) 2px,
+      rgba(0,0,0,0.03) 4px
+    );
+    pointer-events: none;
+  }
+  .genre-label {
+    font-family: 'Courier New', monospace;
+    font-size: 0.7rem; letter-spacing: 0.3em; text-transform: uppercase;
+    color: var(--sepia); margin-bottom: 2rem;
+    display: flex; align-items: center; justify-content: center; gap: 1rem;
+  }
+  .genre-label::before, .genre-label::after {
+    content: ''; display: inline-block; width: 40px; height: 1px; background: var(--sepia);
+  }
+  h1 {
+    font-size: clamp(1.6rem, 4vw, 2.8rem);
+    font-weight: 400;
+    font-style: italic;
+    color: var(--cream);
+    line-height: 1.2;
+    max-width: 700px;
+    margin: 0 auto 1rem;
+    text-shadow: 0 2px 20px rgba(245,158,11,0.2);
+  }
+  .author { color: var(--muted); font-size: 0.95rem; letter-spacing: 0.1em; margin-bottom: 0.5rem; }
+  .author strong { color: var(--amber); }
+  .meta-row {
+    display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;
+    margin: 1.5rem 0 2rem;
+  }
+  .meta-pill {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 4px; padding: 0.3rem 0.8rem;
+    font-family: 'Courier New', monospace; font-size: 0.75rem; color: var(--muted);
+    letter-spacing: 0.1em;
+  }
+  .cta-row { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+  .btn {
+    display: inline-block; padding: 0.8rem 2rem; border-radius: 4px;
+    font-weight: 700; font-size: 0.9rem; text-decoration: none;
+    font-family: 'Segoe UI', sans-serif;
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .btn:hover { transform: translateY(-2px); }
+  .btn-amazon {
+    background: linear-gradient(135deg, var(--amber2), #92400e);
+    color: #fff;
+    box-shadow: 0 4px 20px rgba(245,158,11,0.3);
+  }
+  .btn-amazon:hover { box-shadow: 0 8px 30px rgba(245,158,11,0.4); }
+  .btn-github { background: transparent; border: 1px solid var(--border); color: var(--amber); }
+
+  .pullquote {
+    max-width: 650px; margin: 3rem auto;
+    padding: 2rem 2.5rem;
+    border-left: 3px solid var(--amber);
+    background: var(--card);
+    border-radius: 0 8px 8px 0;
+    position: relative;
+  }
+  .pullquote::before {
+    content: '\201C';
+    font-size: 5rem; color: var(--amber); opacity: 0.3;
+    position: absolute; top: -1rem; left: 1rem;
+    line-height: 1; font-family: Georgia, serif;
+  }
+  .pullquote p { font-style: italic; color: var(--cream); font-size: 1.05rem; line-height: 1.7; }
+  .pullquote cite { display: block; margin-top: 0.8rem; font-size: 0.8rem; color: var(--muted); font-style: normal; }
+
+  main { max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem 6rem; }
+  h2 {
+    font-size: 1.1rem; color: var(--amber);
+    font-family: 'Courier New', monospace; letter-spacing: 0.15em; text-transform: uppercase;
+    margin: 3rem 0 1.2rem;
+    border-bottom: 1px solid var(--border); padding-bottom: 0.5rem;
+  }
+
+  .vignettes-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 0.8rem;
+  }
+  .vignette-card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 6px;
+    padding: 1rem; display: flex; align-items: flex-start; gap: 0.8rem;
+    transition: border-color 0.2s;
+  }
+  .vignette-card:hover { border-color: var(--amber); }
+  .vignette-num {
+    font-family: 'Courier New', monospace; font-size: 1.2rem; color: var(--sepia);
+    min-width: 2rem; font-weight: 700;
+  }
+  .vignette-text { font-size: 0.83rem; color: var(--muted); font-style: italic; }
+
+  .about-block {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;
+    background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+    padding: 2rem;
+  }
+  @media (max-width: 600px) { .about-block { grid-template-columns: 1fr; } }
+  .about-block h3 { color: var(--amber); font-size: 0.85rem; font-family: 'Courier New', monospace;
+    text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.6rem; }
+  .about-block p { font-size: 0.88rem; color: var(--muted); }
+
+  footer {
+    text-align: center; color: var(--muted); font-size: 0.8rem;
+    padding: 2rem 1rem 5rem;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  footer a { color: var(--amber); text-decoration: none; }
+</style>
+</head>
+<body>
+<canvas id="film"></canvas>
+<div class="content">
+
+<div class="ref-banner">
+  <strong>Try Claude free for 2 weeks</strong> — the AI behind this entire ecosystem.&nbsp;
+  <a href="https://claude.ai/referral/4fAMYN9Ing" target="_blank" rel="noopener">Start your free trial &rarr;</a>
+</div>
+
+<header>
+  <div class="genre-label">Noir Fiction</div>
+  <h1>You Probably Think This Book Is About You</h1>
+  <p class="author">by <strong>Shane Brazelton</strong></p>
+  <div class="meta-row">
+    <span class="meta-pill">22 Vignettes</span>
+    <span class="meta-pill">Noir</span>
+    <span class="meta-pill">Third Person</span>
+    <span class="meta-pill">Complete</span>
+    <span class="meta-pill">Ebook · Audiobook · Print</span>
+  </div>
+  <div class="cta-row">
+    <a class="btn btn-amazon" href="https://www.amazon.com/Probably-Think-This-Book-About/dp/B0GT25R5FD"
+       target="_blank" rel="noopener">Get on Amazon &rarr;</a>
+    <a class="btn btn-github" href="https://github.com/thebardchat/you-probably-think-this-book-is-about-you">View on GitHub</a>
+  </div>
+</header>
+
+<div class="pullquote">
+  <p>It was always about you. It was never only about you.</p>
+  <cite>— from the premise</cite>
+</div>
+
+<main>
+  <h2>About the Book</h2>
+  <div class="about-block">
+    <div>
+      <h3>What It Is</h3>
+      <p>A collection of noir-style vignettes about ego, identity, and the universal human condition. Written in third person. Dark but light. Cynical but comical.</p>
+    </div>
+    <div>
+      <h3>The Central Theme</h3>
+      <p>A detective who discovers he is the case. 22 scenes that hold up a mirror not just to one character, but to every reader who has ever been the hero of their own story.</p>
+    </div>
+    <div>
+      <h3>The Voice</h3>
+      <p>Tight. Dry. Noir. Written under the ShaneBrain Constitution — every word shaped by real experience in Hazel Green, Alabama.</p>
+    </div>
+    <div>
+      <h3>Format</h3>
+      <p>Available as Kindle ebook, audiobook, and print on Amazon. Complete first draft. 22 scenes, fully written.</p>
+    </div>
+  </div>
+
+  <h2>22 Vignettes</h2>
+  <div class="vignettes-grid">
+    <div class="vignette-card"><span class="vignette-num">01</span><span class="vignette-text">Ego, identity, and the mirror you hold up to everyone else</span></div>
+    <div class="vignette-card"><span class="vignette-num">02</span><span class="vignette-text">The detective who discovers he is the case</span></div>
+    <div class="vignette-card"><span class="vignette-num">03</span><span class="vignette-text">Universal human condition wrapped in noir shadows</span></div>
+    <div class="vignette-card"><span class="vignette-num">04</span><span class="vignette-text">Dark but light. Cynical but comical.</span></div>
+    <div class="vignette-card"><span class="vignette-num">05</span><span class="vignette-text">Third-person distance. First-person truth.</span></div>
+    <div class="vignette-card"><span class="vignette-num">06</span><span class="vignette-text">The city as a character who is tired of you</span></div>
+    <div class="vignette-card"><span class="vignette-num">07</span><span class="vignette-text">A confession nobody asked for</span></div>
+    <div class="vignette-card"><span class="vignette-num">08</span><span class="vignette-text">The alibi that holds up everywhere except the mirror</span></div>
+    <div class="vignette-card"><span class="vignette-num">09</span><span class="vignette-text">Everyone else is always the problem</span></div>
+    <div class="vignette-card"><span class="vignette-num">10</span><span class="vignette-text">What you tell yourself at 2 AM</span></div>
+    <div class="vignette-card"><span class="vignette-num">11</span><span class="vignette-text">The version of you that you send to work</span></div>
+    <div class="vignette-card"><span class="vignette-num">12</span><span class="vignette-text">A love story told entirely in deflection</span></div>
+    <div class="vignette-card"><span class="vignette-num">13</span><span class="vignette-text">Legacy: what you leave vs. what they remember</span></div>
+    <div class="vignette-card"><span class="vignette-num">14</span><span class="vignette-text">The redemption arc nobody asked for</span></div>
+    <div class="vignette-card"><span class="vignette-num">15</span><span class="vignette-text">Grief that looks like anger looks like pride</span></div>
+    <div class="vignette-card"><span class="vignette-num">16</span><span class="vignette-text">The last person to find out was you</span></div>
+    <div class="vignette-card"><span class="vignette-num">17</span><span class="vignette-text">Standing ovation for the wrong performance</span></div>
+    <div class="vignette-card"><span class="vignette-num">18</span><span class="vignette-text">The apology with its own agenda</span></div>
+    <div class="vignette-card"><span class="vignette-num">19</span><span class="vignette-text">Small-town noir. Big-city delusions.</span></div>
+    <div class="vignette-card"><span class="vignette-num">20</span><span class="vignette-text">The one where the reader is finally caught</span></div>
+    <div class="vignette-card"><span class="vignette-num">21</span><span class="vignette-text">Credits rolling on a movie you starred in alone</span></div>
+    <div class="vignette-card"><span class="vignette-num">22</span><span class="vignette-text">It was always about you. It was never only about you.</span></div>
+  </div>
+
+</main>
+
+<footer>
+  <p>Built by <strong>Shane Brazelton + Claude Anthropic</strong> &middot; GPL v3 &middot; Hazel Green, AL</p>
+  <p><a href="https://github.com/thebardchat">github.com/thebardchat</a></p>
+</footer>
+
+</div>
+
+<!-- Sticky referral bar -->
+<div style="position:fixed;bottom:0;left:0;right:0;z-index:999;background:linear-gradient(90deg,#060910,#0b1124,#060910);border-top:1px solid #1e3060;padding:0.6rem 1.5rem;display:flex;align-items:center;justify-content:center;gap:1.2rem;font-family:monospace;font-size:0.65rem;letter-spacing:0.15em;text-transform:uppercase;"><span style="width:7px;height:7px;border-radius:50%;background:#f59e0b;box-shadow:0 0 8px #f59e0b;display:inline-block;"></span><span style="color:#3d5a78;">Try Claude free for 2 weeks —</span><a href="https://claude.ai/referral/4fAMYN9Ing" target="_blank" rel="noopener" style="color:#00b4d8;text-decoration:none;">Start your free trial →</a><span style="color:#3d5a78;">· AI behind this ecosystem</span></div>
+
+<script>
+// Film grain effect
+const canvas = document.getElementById('film');
+const ctx = canvas.getContext('2d');
+let W, H;
+function resize() { W = canvas.width = innerWidth; H = canvas.height = innerHeight; }
+resize(); window.addEventListener('resize', resize);
+function grain() {
+  const img = ctx.createImageData(W, H);
+  const d = img.data;
+  for (let i = 0; i < d.length; i += 4) {
+    const v = Math.random() * 255;
+    d[i] = d[i+1] = d[i+2] = v;
+    d[i+3] = Math.random() * 20;
+  }
+  ctx.putImageData(img, 0, 0);
+  requestAnimationFrame(grain);
+}
+grain();
+</script>
+</body>
+</html>
