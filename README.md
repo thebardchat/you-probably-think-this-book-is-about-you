@@ -1,5 +1,11 @@
 # You Probably Think This Book Is About You
 
+> **Try Claude free for 2 weeks** — the AI behind this entire ecosystem. [Start your free trial →](https://claude.ai/referral/4fAMYN9Ing)
+
+---
+
+
+
 > Governed by the [TheShaneBrain Constitution](https://github.com/thebardchat/constitution) — Faith. Family. Every word written under it.
 
 ---
