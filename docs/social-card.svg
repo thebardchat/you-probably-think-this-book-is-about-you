@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0806"/>
+      <stop offset="50%" stop-color="#120e08"/>
+      <stop offset="100%" stop-color="#0a0806"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#92400e"/>
+    </linearGradient>
+    <radialGradient id="spotlight" cx="40%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#2d1a06" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0a0806" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feBlend in="SourceGraphic" mode="multiply"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <ellipse cx="480" cy="200" rx="600" ry="400" fill="url(#spotlight)"/>
+
+  <!-- Film grain overlay via noise pattern -->
+  <rect width="1200" height="630" fill="none" filter="url(#grain)" opacity="0.08"/>
+
+  <!-- Scanlines -->
+  <g opacity="0.04">
+    <rect x="0" y="0" width="1200" height="1" fill="#f59e0b"/>
+    <rect x="0" y="4" width="1200" height="1" fill="#f59e0b"/>
+    <rect x="0" y="8" width="1200" height="1" fill="#f59e0b"/>
+    <rect x="0" y="12" width="1200" height="1" fill="#f59e0b"/>
+    <rect x="0" y="16" width="1200" height="1" fill="#f59e0b"/>
+    <rect x="0" y="20" width="1200" height="1" fill="#f59e0b"/>
+    <rect x="0" y="24" width="1200" height="1" fill="#f59e0b"/>
+    <rect x="0" y="28" width="1200" height="1" fill="#f59e0b"/>
+    <rect x="0" y="32" width="1200" height="1" fill="#f59e0b"/>
+    <rect x="0" y="36" width="1200" height="1" fill="#f59e0b"/>
+    <rect x="0" y="40" width="1200" height="1" fill="#f59e0b"/>
+    <rect x="0" y="44" width="1200" height="1" fill="#f59e0b"/>
+    <rect x="0" y="48" width="1200" height="1" fill="#f59e0b"/>
+    <rect x="0" y="52" width="1200" height="1" fill="#f59e0b"/>
+    <rect x="0" y="56" width="1200" height="1" fill="#f59e0b"/>
+    <rect x="0" y="60" width="1200" height="1" fill="#f59e0b"/>
+  </g>
+
+  <!-- Left accent line — amber -->
+  <rect x="80" y="100" width="3" height="430" rx="1.5" fill="url(#amberGrad)" opacity="0.6"/>
+
+  <!-- Genre tag -->
+  <text x="100" y="128" font-family="'Courier New', monospace" font-size="13" fill="#a16207"
+        font-weight="700" letter-spacing="4">NOIR FICTION</text>
+  <line x1="100" y1="135" x2="800" y2="135" stroke="#2d220e" stroke-width="1"/>
+
+  <!-- Main title — large italic serif feel -->
+  <text x="100" y="220" font-family="Georgia, serif" font-size="56"
+        font-style="italic" fill="url(#titleGrad)" font-weight="700">You Probably Think</text>
+  <text x="100" y="290" font-family="Georgia, serif" font-size="56"
+        font-style="italic" fill="url(#titleGrad)" font-weight="700">This Book Is About You</text>
+
+  <!-- Author -->
+  <text x="104" y="330" font-family="'Courier New', monospace" font-size="16" fill="#a16207"
+        letter-spacing="3">by SHANE BRAZELTON</text>
+
+  <!-- Divider rule -->
+  <line x1="100" y1="355" x2="700" y2="355" stroke="#2d220e" stroke-width="1"/>
+
+  <!-- Tagline -->
+  <text x="100" y="390" font-family="Georgia, serif" font-size="20" fill="#a0906e" font-style="italic">
+    It was always about you. It was never only about you.
+  </text>
+
+  <!-- Meta pills -->
+  <rect x="100" y="418" width="120" height="26" rx="3" fill="#1a1208" stroke="#2d220e" stroke-width="1"/>
+  <text x="160" y="435" font-family="'Courier New', monospace" font-size="12" fill="#f59e0b"
+        text-anchor="middle" letter-spacing="1">22 SCENES</text>
+
+  <rect x="232" y="418" width="120" height="26" rx="3" fill="#1a1208" stroke="#2d220e" stroke-width="1"/>
+  <text x="292" y="435" font-family="'Courier New', monospace" font-size="12" fill="#a16207"
+        text-anchor="middle" letter-spacing="1">THIRD PERSON</text>
+
+  <rect x="364" y="418" width="200" height="26" rx="3" fill="#1a1208" stroke="#2d220e" stroke-width="1"/>
+  <text x="464" y="435" font-family="'Courier New', monospace" font-size="12" fill="#f59e0b"
+        text-anchor="middle" letter-spacing="1">EBOOK · AUDIO · PRINT</text>
+
+  <!-- Amazon CTA box -->
+  <rect x="100" y="460" width="280" height="52" rx="5" fill="url(#amberGrad)" opacity="0.9"/>
+  <text x="240" y="493" font-family="Arial, sans-serif" font-size="16" fill="white"
+        text-anchor="middle" font-weight="700">GET ON AMAZON</text>
+
+  <!-- Right side — big quote mark decoration -->
+  <text x="900" y="450" font-family="Georgia, serif" font-size="260" fill="#2d220e" opacity="0.6"
+        font-style="italic">&#8220;</text>
+
+  <!-- GitHub -->
+  <text x="100" y="568" font-family="'Courier New', monospace" font-size="14" fill="#4a3820">
+    github.com/thebardchat/you-probably-think-this-book-is-about-you
+  </text>
+
+  <!-- Footer bar -->
+  <rect x="0" y="600" width="1200" height="30" fill="#060402" opacity="0.95"/>
+  <text x="600" y="619" font-family="Arial, sans-serif" font-size="11" fill="#4a3820"
+        text-anchor="middle" letter-spacing="1">
+    Built by Shane Brazelton + Claude Anthropic  ·  GPL v3  ·  Hazel Green, AL
+  </text>
+</svg>
